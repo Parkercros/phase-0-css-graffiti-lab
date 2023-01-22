@@ -1,1 +1,23 @@
-/* write your override styles here */
+/* Remove graffiti tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Remove graffiti tag-2 */
+  #wall .tag-2 {
+    display: none;
+  }
+  
+  /* Remove graffiti tag-3 */
+  #wall .tag-3 {
+    display: none;
+  }
+  
+  /* Add more styles to the existing selectors */
+  #wall .tag-1, #wall .tag-2, #wall .tag-3 {
+    background: none;
+    z-index: -1;
+    width: 0;
+    height: 0;
+  }
+  
